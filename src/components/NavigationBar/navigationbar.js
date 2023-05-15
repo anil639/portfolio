@@ -1,14 +1,17 @@
 import React from 'react'
+import './navigationbar.css'
 import { BsList } from "react-icons/bs";
 
 const NavigationBar = () => {
     return (
         <div>
-            <nav className="navbar navbar-expand-lg navbar-dark text-white bg-dark ">
+            <nav className="navbar navbar-expand-lg navbar-dark text-white  ">
                 <div className='container'>
                     <a className="navbar-brand" href="/"><span className='name'>Anil Kumar Nayak</span></a>
                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <BsList style={{ color: 'white' }} />
+                        <span className='navigation-icon'>
+                            <BsList />
+                        </span>
                     </button>
 
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">

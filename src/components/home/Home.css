@@ -1,0 +1,28 @@
+.text-nowrap{
+    color: antiquewhite;
+    margin-top: 100px;
+    text-align: center;
+  }
+  .mes1{
+    color: antiquewhite;
+    text-align: center;
+    font-family: cursive;
+  }
+  .h-icon{
+    margin-left: 15px ;
+  }
+  .icon-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 35px;
+  }
+.text-nowrap{
+    font-family: cursive;
+}
+  /*image */
+.im{
+    border-radius: 10%;
+    width: 100%;
+
+}
