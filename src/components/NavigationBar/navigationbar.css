@@ -43,11 +43,14 @@
     margin-left: 12px;
     margin-right: 12px;
   }
-  .nav-item:hover{
+  /* .nav-item:hover{
     animation: flicker 1.5s infinite alternate;
-  }
+  } */
+
   .navigation-icon{
     color: white;
   }
-  
+.nav-link:hover{
+  animation: flicker 1.5s infinite alternate
+}
   
