@@ -1,14 +1,14 @@
 import React from 'react'
 import './navigationbar.css'
 import { BsList } from "react-icons/bs";
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 const NavigationBar = () => {
     return (
         <div>
             <nav className="navbar navbar-expand-lg navbar-dark text-white  ">
                 <div className='container'>
-                    <Link className="navbar-brand" to="/"><span className='name'>Anil Kumar Nayak</span></Link>
+                    <NavLink className="navbar-brand" to="/"><span className='name'>Anil Kumar Nayak</span></NavLink>
                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className='navigation-icon'>
                             <BsList />
@@ -18,19 +18,19 @@ const NavigationBar = () => {
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav ms-auto">
                             <li className="nav-item ">
-                                <Link className="nav-link" to="/">Home </Link>
+                                <NavLink className="nav-link" to="/">Home </NavLink>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" to="/education">Education</Link>
+                                <NavLink className="nav-link" to="/education">Education</NavLink>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" to="/experience">Experience</Link>
+                                <NavLink className="nav-link" to="/experience">Experience</NavLink>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" to="/project">Projects</Link>
+                                <NavLink className="nav-link" to="/project">Projects</NavLink>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" to="/contactMe">Contact Me</Link>
+                                <NavLink className="nav-link" to="/contactMe">Contact Me</NavLink>
                             </li>
                         </ul>
                     </div>

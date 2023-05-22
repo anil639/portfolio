@@ -50,7 +50,17 @@
   .navigation-icon{
     color: white;
   }
-.nav-link:hover{
+/* .nav-link:hover{
   animation: flicker 1.5s infinite alternate
-}
-  
+} */
+.active{
+  /* color: #5271ff !important; */
+  /* animation: flicker 1.5s infinite alternate; */
+  color: #fff;
+  text-shadow:
+    0 0 2px #0fa,
+    0 0 42px #0fa,
+    0 0 52px #0fa,
+    0 0 62px #0fa,
+    0 0 111px #0fa;
+} 
