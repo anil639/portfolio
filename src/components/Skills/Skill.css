@@ -1,0 +1,28 @@
+.card_image{
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10%;
+    height: 100px;
+    width: 100px;
+    margin-top: 10px;
+}
+.card_bg{
+    background-color: #282c34;
+    border:0px;
+}
+.card_bg:hover{
+    box-shadow: rgb(255,165,0) 0px 19px 43px;
+  transform: translate3d(0px, -1px, 0px);
+}
+.card_title{
+    color: white;
+}
+.card_description{
+    color: white;
+}
+.skill_heading{
+    font-family: ink free;
+    text-align: center;
+    color:orange;
+    margin-bottom: 50px;
+}
