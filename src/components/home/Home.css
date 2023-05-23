@@ -6,17 +6,10 @@
   .mes1{
     color: antiquewhite;
     text-align: center;
-    font-family: cursive;
+    font-family:'Courier New', Courier, monospace;
   }
-  .h-icon{
-    margin-left: 15px ;
-  }
-  .icon-container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 35px;
-  }
+  
+  
 .text-nowrap{
     font-family: cursive;
 }

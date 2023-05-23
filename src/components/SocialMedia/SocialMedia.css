@@ -1,0 +1,9 @@
+.icon-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 35px;
+  }
+  .h-icon{
+    margin-left: 15px ;
+  }
