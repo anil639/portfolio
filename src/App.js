@@ -7,6 +7,7 @@ import Skill from './components/Skills/Skill';
 import Projects from './components/Projects/Projects';
 import About from './components/About/About';
 import Contact from './components/ContactMe/Contact';
+import Error from './components/ErrorPage/Error';
 import { Route, Routes } from 'react-router-dom';
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path='/project' element={<Projects />}></Route>
         <Route path='/about' element={<About />}></Route>
         <Route path='/contactMe' element={<Contact />}></Route>
+        <Route path='*' element={<Error />}></Route >
       </Routes>
     </div>
   );
