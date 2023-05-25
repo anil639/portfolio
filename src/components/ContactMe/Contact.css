@@ -1,4 +1,27 @@
-.heading{
-    text-align: center;
+.card_c_bg{
+    background-color: #282c34;
+    border: 0px;
     color: white;
+    margin-top: 100px;
+}
+.card1_c_bg{
+    flex-wrap: wrap;
+    background-color: #282c34;
+    border: 0px;
+    color: white;
+    margin-top: 100px;
+}
+.form_button{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 150px;
+    margin-top: 30px;
+    background-color: orange;
+    border: 0px;
+}
+.contact_pg{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
