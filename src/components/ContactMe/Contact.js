@@ -6,6 +6,7 @@ import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button'
 import { useForm, ValidationError } from '@formspree/react';
 import { useNavigate } from 'react-router-dom';
+import SocialMedia from '../SocialMedia/SocialMedia';
 import './Contact.css'
 const Contact = () => {
     const [state, handleSubmit] = useForm("mbjeealz");
@@ -31,8 +32,10 @@ const Contact = () => {
                         <p>(+91)8895312122</p>
                         <h1>Email</h1>
                         <p>anilkumarnayak639@gmail.com</p>
+                        <div className='contact_social_media_icon'>
+                            <SocialMedia />
+                        </div>
                     </Col>
-
                     <Col className='card1_c_bg'>
                         <Form className='c_form' onSubmit={handleSubmit}>
                             <Form.Group className="mb-3" >

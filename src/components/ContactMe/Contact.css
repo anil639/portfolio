@@ -40,3 +40,6 @@
     margin-bottom: 50px;
     border-radius: 10px;
 }
+.contact_social_media_icon{
+    display: flex;
+}
