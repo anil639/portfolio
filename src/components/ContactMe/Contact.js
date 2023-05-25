@@ -23,8 +23,8 @@ const Contact = () => {
         <div className='contact_pg'>
             <Container>
                 <Row>
-                    <Col className='card_c_bg' >
-                        <h1>Contact Me</h1><br />
+                    <Col className='card_c_bg' xs={12} md={6} >
+                        <h1 className='contact_heading'>Contact Me</h1><br />
                         <h4>Address</h4>
                         <p>Nepur,jagatsinghpur,Odisha</p>
                         <h1>Phone</h1>
@@ -36,7 +36,7 @@ const Contact = () => {
                             <SocialMedia />
                         </div>
                     </Col>
-                    <Col className='card1_c_bg'>
+                    <Col className='card1_c_bg' xs={12} md={6}>
                         <Form className='c_form' onSubmit={handleSubmit}>
                             <Form.Group className="mb-3" >
                                 <Form.Label>Name</Form.Label>
@@ -80,7 +80,7 @@ const Contact = () => {
                                 />
                             </Form.Group>
                             <Form.Group className="mb-3" >
-                                <Form.Label>Example textarea</Form.Label>
+                                <Form.Label>Message</Form.Label>
                                 <Form.Control
                                     as="textarea"
                                     id="message"
