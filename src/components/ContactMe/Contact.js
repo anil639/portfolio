@@ -4,8 +4,13 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button'
+import { useForm, ValidationError } from '@formspree/react';
 import './Contact.css'
 const Contact = () => {
+    const [state, handleSubmit] = useForm("mbjeealz");
+    if (state.succeeded) {
+        return <h1 className='contact_mes'>Thank You</h1>
+    }
     return (
         <div className='contact_pg'>
             <Container>
@@ -22,24 +27,63 @@ const Contact = () => {
                     </Col>
 
                     <Col className='card1_c_bg'>
-                        <Form className='c_form'>
+                        <Form className='c_form' onSubmit={handleSubmit}>
                             <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
                                 <Form.Label>Name</Form.Label>
-                                <Form.Control type="text" placeholder="Name" />
+                                <Form.Control type="text"
+                                    id="text"
+                                    name="text"
+                                    placeholder="Name"
+                                    required />
+                                <ValidationError
+                                    prefix="Name"
+                                    field="name"
+                                    errors={state.errors}
+                                />
                             </Form.Group>
                             <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
                                 <Form.Label>Email address</Form.Label>
-                                <Form.Control type="email" placeholder="name@example.com" />
+                                <Form.Control
+                                    type="email"
+                                    id="email"
+                                    name="email"
+                                    placeholder="Your Email Address"
+                                    required />
+                                <ValidationError
+                                    prefix="Email"
+                                    field="email"
+                                    errors={state.errors}
+                                />
                             </Form.Group>
                             <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
                                 <Form.Label>Number</Form.Label>
-                                <Form.Control type="number" placeholder="Phone Number" />
+                                <Form.Control
+                                    type="number"
+                                    id="number"
+                                    name="number"
+                                    placeholder="contact Number"
+                                    required />
+                                <ValidationError
+                                    prefix="Number"
+                                    field="number"
+                                    errors={state.errors}
+                                />
                             </Form.Group>
                             <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
                                 <Form.Label>Example textarea</Form.Label>
-                                <Form.Control as="textarea" rows={3} />
+                                <Form.Control
+                                    as="textarea"
+                                    id="message"
+                                    name="message"
+                                    rows={3}
+                                    required />
+                                <ValidationError
+                                    prefix="Message"
+                                    field="message"
+                                    errors={state.errors}
+                                />
                             </Form.Group>
-                            <Button className='form_button' variant="primary">Submit</Button>{' '}
+                            <Button className='form_button' type='submit' variant="primary" disabled={state.submitting}>Submit</Button>{' '}
                         </Form>
                     </Col>
 
