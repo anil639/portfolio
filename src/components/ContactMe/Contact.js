@@ -5,11 +5,18 @@ import Col from 'react-bootstrap/Col';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button'
 import { useForm, ValidationError } from '@formspree/react';
+import { useNavigate } from 'react-router-dom';
 import './Contact.css'
 const Contact = () => {
     const [state, handleSubmit] = useForm("mbjeealz");
+    const navigate = useNavigate()
     if (state.succeeded) {
-        return <h1 className='contact_mes'>Thank You</h1>
+        return (
+            <div className='contact_mes'>
+                <h1>Thank You</h1>
+                <button className='back_button' onClick={() => navigate(-1)}>Go Back</button>
+            </div>
+        )
     }
     return (
         <div className='contact_pg'>
@@ -28,7 +35,7 @@ const Contact = () => {
 
                     <Col className='card1_c_bg'>
                         <Form className='c_form' onSubmit={handleSubmit}>
-                            <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
+                            <Form.Group className="mb-3" >
                                 <Form.Label>Name</Form.Label>
                                 <Form.Control type="text"
                                     id="text"
@@ -41,7 +48,7 @@ const Contact = () => {
                                     errors={state.errors}
                                 />
                             </Form.Group>
-                            <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
+                            <Form.Group className="mb-3" >
                                 <Form.Label>Email address</Form.Label>
                                 <Form.Control
                                     type="email"
@@ -55,7 +62,7 @@ const Contact = () => {
                                     errors={state.errors}
                                 />
                             </Form.Group>
-                            <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
+                            <Form.Group className="mb-3" >
                                 <Form.Label>Number</Form.Label>
                                 <Form.Control
                                     type="number"
@@ -69,7 +76,7 @@ const Contact = () => {
                                     errors={state.errors}
                                 />
                             </Form.Group>
-                            <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
+                            <Form.Group className="mb-3" >
                                 <Form.Label>Example textarea</Form.Label>
                                 <Form.Control
                                     as="textarea"
@@ -88,6 +95,13 @@ const Contact = () => {
                     </Col>
 
                 </Row>
+                <iframe className='map_contact' title='myFrame' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14973.097293118914!2d86.20128384976319!3d20.24745469815984!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a1981abeeef41e3%3A0x7a14fc5ec909c4c6!2sNepur%2C%20Odisha!5e0!3m2!1sen!2sin!4v1685040053880!5m2!1sen!2sin" width="100%"
+                    height="450"
+                    style={{ border: 0 }}
+                    allowFullScreen=""
+                    loading="lazy"
+                    referrerPolicy="no-referrer-when-downgrade">
+                </iframe>
             </Container>
         </div>
 
