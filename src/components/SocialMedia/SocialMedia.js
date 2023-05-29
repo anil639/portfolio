@@ -6,7 +6,7 @@ import { SiGmail } from "react-icons/si";
 const SocialMedia = () => {
     return (
         <div className='icon-container'>
-            <a href="https://github.com/Anil-Kumar-nayak-639">
+            <a href="https://github.com/anil639">
                 <span className='h-icon'>
                     <BsGithub size={30} style={{ color: 'white' }} />
                 </span>

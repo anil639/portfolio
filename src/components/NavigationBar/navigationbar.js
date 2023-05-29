@@ -8,7 +8,7 @@ const NavigationBar = () => {
         <div>
             <nav className="navbar navbar-expand-lg navbar-dark text-white  ">
                 <div className='container'>
-                    <NavLink className="navbar-brand" to="/portfolio"><span className='name'>Anil Kumar Nayak</span></NavLink>
+                    <NavLink className="navbar-brand" to="/portfolio"><span className='name'>Anil Kumar Nayak </span></NavLink>
                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className='navigation-icon'>
                             <BsList />

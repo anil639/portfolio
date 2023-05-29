@@ -16,7 +16,7 @@
 .name{
     animation: flicker 1.5s infinite alternate !important;
     color: #fff;
-    font-family: ink free;
+    font-family: cursive;
     font-size: 30px !important;
   }
   @keyframes flicker {
