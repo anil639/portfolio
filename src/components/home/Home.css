@@ -19,3 +19,12 @@
     width: 100%;
 
 }
+.svg_logo{
+  max-width: 100%;
+  height: auto;
+  display: flex;
+}
+.home_heading_2{
+  text-align: center;
+  color: orange;
+}
