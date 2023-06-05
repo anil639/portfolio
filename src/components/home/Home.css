@@ -48,7 +48,7 @@
   display: flex;
 }
 .direction{
-  @media (max-width:600px){
+  @media (max-width:768px){
     display: flex;
     flex-direction: column-reverse;
   }

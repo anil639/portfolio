@@ -1,0 +1,35 @@
+.about_heading{
+    margin-top: 25px;
+    color: orange;
+}
+.about_mes{
+    margin-top: 25px;
+    color: white;
+}
+.about_img{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5%;
+    
+}
+.about_heading_1{
+    text-align: center;
+    color: orange;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+.about_card{
+    background-color:#34363b;
+    border: 0px;
+    color: white;
+}
+.gra_icon{
+    display: table;
+    position: relative;
+}
+.card_mes{
+    display: block;
+    display: table;
+    margin-left: 10px;
+}
