@@ -28,3 +28,28 @@
   text-align: center;
   color: orange;
 }
+.heading_3{
+  color: orange;
+  text-align: center;
+}
+.mes_2{
+  color: white;
+  font-size: 20px;
+  margin-left: 10px;
+  display: block;
+  display: table-cell;
+}
+.ar_icon{
+  position: relative;
+  display: table;
+}
+.svg_logo_1{
+  max-width: 100%;
+  display: flex;
+}
+.direction{
+  @media (max-width:600px){
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
