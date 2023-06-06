@@ -9,7 +9,7 @@ const AboutData = [
     },
     {
         name: 'Swami Vivekananda Memorial college,Jagatsinghpur,Odisha',
-        about: '+2 Science'
+        about: 'CHSE  Science'
     },
     {
         name: 'Sri Aurobindo Purnanga Shikshya Kendra,Damonjodi,Odisha',

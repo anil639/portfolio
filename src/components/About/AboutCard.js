@@ -14,9 +14,11 @@ const AboutCard = (props) => {
                         </Card.Title>
                         <Card.Body>
                             <div className='gra_icon'>
-                                <FaUserGraduate size={50} style={{ color: "orange" }} />
-                                <h6 className='card_mes'>{value.about}</h6>
-                                <span className='card_mes'>{value.name}</span>
+                                <div><FaUserGraduate size={50} style={{ color: "orange" }} /></div>
+                                <div className='card_mes'>
+                                    <h6>{value.about}</h6>
+                                    <span>{value.name}</span>
+                                </div>
                             </div>
                         </Card.Body>
                     </Card>
