@@ -4,7 +4,9 @@ import SocialMedia from '../SocialMedia/SocialMedia';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import Button from 'react-bootstrap/Button'
 import { FaHandPointRight } from "react-icons/fa"
+import pdf from './Anil kumar Resume.pdf'
 
 
 const Home = () => {
@@ -16,6 +18,7 @@ const Home = () => {
                         <h1 className='text-nowrap'>Anil Kumar Nayak</h1>
                         <h3 className='mes1'>A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.</h3>
                         <SocialMedia />
+                        <a href={pdf} id='pdf_link1'><Button className='cv_btm'>Download Resume</Button></a>
                     </Col>
                     <Col xs={12} md={6} >
                         <div className='svg_logo'>
