@@ -4,7 +4,7 @@ import SocialMedia from '../SocialMedia/SocialMedia';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import { BsHeartArrow } from "react-icons/bs";
+import { FaHandPointRight } from "react-icons/fa"
 
 
 const Home = () => {
@@ -39,19 +39,19 @@ const Home = () => {
                             </div>
                             <div style={{ marginTop: '10px' }}>
                                 <div className='ar_icon'>
-                                    <BsHeartArrow size={30} style={{ color: 'orange', marginRight: '15px' }} />
+                                    <FaHandPointRight size={30} style={{ color: 'orange', marginRight: '15px' }} />
                                     <span className='mes_2'>Developing both the front-end and Back-end components of web applications.</span>
                                 </div>
                                 <div className='ar_icon'>
-                                    <BsHeartArrow size={30} style={{ color: 'orange', marginRight: '15px' }} />
+                                    <FaHandPointRight size={30} style={{ color: 'orange', marginRight: '15px' }} />
                                     <span className='mes_2'>Creating responsive and interactive front-end interfaces using HTML, CSS, and JavaScript.</span>
                                 </div>
                                 <div className='ar_icon'>
-                                    <BsHeartArrow size={30} style={{ color: 'orange', marginRight: '15px' }} />
+                                    <FaHandPointRight size={30} style={{ color: 'orange', marginRight: '15px' }} />
                                     <span className='mes_2'>Implementing server-side logic and database interactions to ensure seamless data flow and efficient functionality.</span>
                                 </div>
                                 <div className='ar_icon'>
-                                    <BsHeartArrow size={30} style={{ color: 'orange', marginRight: '15px' }} />
+                                    <FaHandPointRight size={30} style={{ color: 'orange', marginRight: '15px' }} />
                                     <span className='mes_2'>Testing, debugging, and deploying applications, continuously improving their performance and scalability.</span>
                                 </div>
                             </div>
