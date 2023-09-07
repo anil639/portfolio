@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.5d92465a.css",
-    "main.js": "/portfolio/static/js/main.61f8f5b0.js",
+    "main.js": "/portfolio/static/js/main.b1d3fba5.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
-    "static/media/Anil kumar Resume.pdf": "/portfolio/static/media/Anil kumar Resume.bb4d8545125f597a3a9e.pdf",
+    "static/media/Anil kumar Nayak Resume.pdf": "/portfolio/static/media/Anil kumar Nayak Resume.0274810d39ac41190fe2.pdf",
     "static/media/Resume_builder_img.png": "/portfolio/static/media/Resume_builder_img.332ef295910841285a51.png",
     "static/media/mongoDb_img.png": "/portfolio/static/media/mongoDb_img.f9efb4cf07a7dc8a900d.png",
     "static/media/nodeJs_img.png": "/portfolio/static/media/nodeJs_img.a944ef19fe84ba7371f2.png",
     "index.html": "/portfolio/index.html",
     "main.5d92465a.css.map": "/portfolio/static/css/main.5d92465a.css.map",
-    "main.61f8f5b0.js.map": "/portfolio/static/js/main.61f8f5b0.js.map",
+    "main.b1d3fba5.js.map": "/portfolio/static/js/main.b1d3fba5.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5d92465a.css",
-    "static/js/main.61f8f5b0.js"
+    "static/js/main.b1d3fba5.js"
   ]
 }
