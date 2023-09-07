@@ -13,9 +13,16 @@ const ProjectCards = (props) => {
               <Card.Text className="card_description">
                 {value.description}
               </Card.Text>
-              <Button href={value.site_link} target="_blank" variant="warning">
-                Go To Website
-              </Button>{" "}
+              {value.site_link ? (
+                <Button
+                  href={value.site_link}
+                  target="_blank"
+                  variant="warning"
+                  style={{ marginRight: "5px" }}
+                >
+                  Go To Website
+                </Button>
+              ) : null}
               <Button
                 href={value.github_link}
                 target="_blank"
