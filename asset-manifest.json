@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.5d92465a.css",
-    "main.js": "/portfolio/static/js/main.b1d3fba5.js",
+    "main.js": "/portfolio/static/js/main.dd3f5ed7.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/Anil kumar Nayak Resume.pdf": "/portfolio/static/media/Anil kumar Nayak Resume.0274810d39ac41190fe2.pdf",
     "static/media/Resume_builder_img.png": "/portfolio/static/media/Resume_builder_img.332ef295910841285a51.png",
@@ -9,11 +9,11 @@
     "static/media/nodeJs_img.png": "/portfolio/static/media/nodeJs_img.a944ef19fe84ba7371f2.png",
     "index.html": "/portfolio/index.html",
     "main.5d92465a.css.map": "/portfolio/static/css/main.5d92465a.css.map",
-    "main.b1d3fba5.js.map": "/portfolio/static/js/main.b1d3fba5.js.map",
+    "main.dd3f5ed7.js.map": "/portfolio/static/js/main.dd3f5ed7.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5d92465a.css",
-    "static/js/main.b1d3fba5.js"
+    "static/js/main.dd3f5ed7.js"
   ]
 }
