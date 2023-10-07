@@ -6,7 +6,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Button from "react-bootstrap/Button";
 import { FaHandPointRight } from "react-icons/fa";
-import pdf from "./Anil kumar Nayak Resume.pdf";
+import pdf from "./Anil kumar Nayak.pdf";
 
 const Home = () => {
   return (

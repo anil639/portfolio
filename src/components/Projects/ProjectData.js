@@ -1,7 +1,16 @@
 import GetYoutubeSubscriber from "./Images/getYoutubeSubscribers.png";
 import ResumeBuilder from "./Images/Resume_builder_img.png";
 import todolist from "./Images/todolist.png";
+import taskList from "./Images/taskList.png";
 const ProjectData = [
+  {
+    image: taskList,
+    title: "Task List (MERN)",
+    description:
+      "A task management MERN stack project that provides create, read, update, and delete (CRUD) operations with a user-friendly and responsive interface.",
+    site_link: "",
+    github_link: "https://github.com/anil639/task_List",
+  },
   {
     image: GetYoutubeSubscriber,
     title: "Get Youtube Subscribers",
