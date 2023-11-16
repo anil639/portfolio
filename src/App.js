@@ -8,9 +8,12 @@ import About from "./components/About/About";
 import Contact from "./components/ContactMe/Contact";
 import Error from "./components/ErrorPage/Error";
 import { Route, Routes } from "react-router-dom";
+//Particle
+import BgParticle from "./components/Particles/BgParticle";
 function App() {
   return (
     <div className="App">
+      <BgParticle />
       <NavigationBar />
 
       <Routes>

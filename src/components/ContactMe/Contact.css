@@ -1,56 +1,56 @@
-.card_c_bg{
-    background-color: #282c34; 
-    border: 0px;
-    color: white;
-    margin-top: 100px;
-    @media (max-width:600px) {
-        text-align: center;
-    }
-}
-.contact_heading{
-    color: orange;
-}
-.card1_c_bg{
-    flex-wrap: wrap;
-    background-color: #282c34;
-    border: 0px;
-    color: white;
-    margin-top: 100px;
-}
-.form_button{
-    display: flex;
-    font-weight: bold;
-    justify-content: center;
-    margin: auto;
-    width: 150px;
-    margin-top: 30px;
-    background-color: orange;
-    color: black;
-    border: 0px;
-}
-.contact_pg{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-.contact_mes{
+.card_c_bg {
+  background-color: inherit;
+  border: 0px;
+  color: white;
+  margin-top: 100px;
+  @media (max-width: 600px) {
     text-align: center;
-    color: white;
-    margin-top: 30px;
+  }
 }
-.back_button{
-    background-color: #282c34;
-    color: white;
-    border: 0px;
+.contact_heading {
+  color: orange;
 }
-.map_contact{
-    margin-top: 50px;
-    margin-bottom: 50px;
-    border-radius: 10px;
+.card1_c_bg {
+  flex-wrap: wrap;
+  background-color: inherit;
+  border: 0px;
+  color: white;
+  margin-top: 100px;
 }
-.contact_social_media_icon{
-    display: flex;
-    @media(max-width:600px){
-        justify-content:center;
-    }
+.form_button {
+  display: flex;
+  font-weight: bold;
+  justify-content: center;
+  margin: auto;
+  width: 150px;
+  margin-top: 30px;
+  background-color: orange;
+  color: black;
+  border: 0px;
+}
+.contact_pg {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.contact_mes {
+  text-align: center;
+  color: white;
+  margin-top: 30px;
+}
+.back_button {
+  background-color: #282c34;
+  color: white;
+  border: 0px;
+}
+.map_contact {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-radius: 10px;
+}
+.contact_social_media_icon {
+  display: flex;
+  @media (max-width: 600px) {
+    justify-content: center;
+  }
 }

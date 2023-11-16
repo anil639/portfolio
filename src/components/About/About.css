@@ -1,47 +1,46 @@
-.about_heading{
-    margin-top: 25px;
-    color: orange;
-    @media(max-width:767px){
-        text-align: center;
-    }
+.about_heading {
+  margin-top: 25px;
+  color: orange;
+  @media (max-width: 767px) {
+    text-align: center;
+  }
 }
-.about_mes{
-    margin-top: 25px;
-    color: white;
+.about_mes {
+  margin-top: 25px;
+  color: white;
 }
 
-.about_heading_1{
-    text-align: center;
-    color: orange;
-    margin-top: 25px;
-    margin-bottom: 50px;
-   
+.about_heading_1 {
+  text-align: center;
+  color: orange;
+  margin-top: 25px;
+  margin-bottom: 50px;
 }
-.about_card{
-    background-color:#282c34;
-    border: 0px;
-    color: white;
+.about_card {
+  background-color: inherit;
+  border: 0px;
+  color: white;
 }
-.about_card:hover{
-    box-shadow: rgb(255,165,0) 0px 19px 43px;
+.about_card:hover {
+  box-shadow: rgb(255, 165, 0) 0px 19px 43px;
   transform: translate3d(0px, -1px, 0px);
 }
-.gra_icon{
-    display: flex;
-    align-items: center;
+.gra_icon {
+  display: flex;
+  align-items: center;
 }
-.card_mes{
-    display: flex;
-    flex-direction: column;
-    margin-left: 10px;
+.card_mes {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
 }
-.about_svg_logo{
-    max-width: 100%;
-    display: flex;
+.about_svg_logo {
+  max-width: 100%;
+  display: flex;
 }
-.about_direction{
-    @media(max-width:767px){
-        display: flex;
-        flex-direction: column-reverse;
-    }
+.about_direction {
+  @media (max-width: 767px) {
+    display: flex;
+    flex-direction: column-reverse;
+  }
 }

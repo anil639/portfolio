@@ -4,8 +4,8 @@ import Button from "react-bootstrap/Button";
 const ProjectCards = (props) => {
   return (
     <div className="d-flex flex-wrap justify-content-center text-center">
-      {props.details.map((value) => (
-        <div style={{ marginLeft: "20px", marginBottom: "20px" }}>
+      {props.details.map((value, i) => (
+        <div style={{ marginLeft: "20px", marginBottom: "20px" }} key={i}>
           <Card className="card_bg" style={{ width: "16rem" }}>
             <Card.Img variant="top" src={value.image} className="card_image" />
             <Card.Body>
