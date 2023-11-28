@@ -2,6 +2,7 @@ import GetYoutubeSubscriber from "./Images/getYoutubeSubscribers.png";
 import ResumeBuilder from "./Images/Resume_builder_img.png";
 import todolist from "./Images/todolist.png";
 import taskList from "./Images/taskList.png";
+import SocialMediaUI from "./Images/SocialMediaUI.png";
 const ProjectData = [
   {
     image: taskList,
@@ -26,6 +27,14 @@ const ProjectData = [
       "This project is built using React.js and incorporates various libraries and technologies to provide a seamless resume-building experience.",
     site_link: "https://anil639.github.io/resume_builder/",
     github_link: "https://github.com/anil639/resume_builder",
+  },
+  {
+    image: SocialMediaUI,
+    title: "Social Media UI",
+    description:
+      "Realistic social user interface powered by Firebase Establish genuine connections. Your entryway to a vibrant online community streamlined design and safe authentication.",
+    site_link: "",
+    github_link: "https://github.com/anil639/Social_Media_UI",
   },
   {
     image: todolist,
