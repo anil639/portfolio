@@ -3,6 +3,7 @@ import ResumeBuilder from "./Images/Resume_builder_img.png";
 import todolist from "./Images/todolist.png";
 import taskList from "./Images/taskList.png";
 import SocialMediaUI from "./Images/SocialMediaUI.png";
+import YoutubeClone from "./Images/YoutubeClone.png";
 const ProjectData = [
   {
     image: taskList,
@@ -27,6 +28,14 @@ const ProjectData = [
       "This project is built using React.js and incorporates various libraries and technologies to provide a seamless resume-building experience.",
     site_link: "https://anil639.github.io/resume_builder/",
     github_link: "https://github.com/anil639/resume_builder",
+  },
+  {
+    image: YoutubeClone,
+    title: "Youtube Clone",
+    description:
+      "YouTube clone app leveraging Rapid API for robust functionality, while enhancing video playback with the seamless performance of React Player.",
+    site_link: "",
+    github_link: "https://github.com/anil639/youtubeClone",
   },
   {
     image: SocialMediaUI,
