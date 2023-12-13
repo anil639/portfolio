@@ -4,7 +4,16 @@ import todolist from "./Images/todolist.png";
 import taskList from "./Images/taskList.png";
 import SocialMediaUI from "./Images/SocialMediaUI.png";
 import YoutubeClone from "./Images/YoutubeClone.png";
+import netflixClone from "./Images/netflixClone.png";
 const ProjectData = [
+  {
+    image: netflixClone,
+    title: "Netflix Clone | Web App (MERN)",
+    description:
+      "Netflix clone with MERN stack. Utilize React, Redux Toolkit, Axios, Firebase, and more for seamless streaming and robust backend functionality.",
+    site_link: "",
+    github_link: "https://github.com/anil639/netflix_clone",
+  },
   {
     image: taskList,
     title: "Task List (MERN)",
