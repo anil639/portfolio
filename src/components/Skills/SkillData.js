@@ -9,6 +9,8 @@ import expressJs_img from "./images/expressJs_img.png";
 import nodeJs_img from "./images/nodeJs_img.png";
 import mongodb_img from "./images/mongoDb_img.png";
 import mysql_img from "./images/mysql_img.png";
+import PostMan from "./images/PostMan.png";
+
 const SkillData = [
   {
     image: html,
@@ -75,6 +77,12 @@ const SkillData = [
     title: "My SQL",
     description:
       "Popular relational database. Store, retrieve, and manage data effectively for applications.",
+  },
+  {
+    image: PostMan,
+    title: "Postman",
+    description:
+      "API development simplified; streamline, test, and document effortlessly.",
   },
 ];
 export default SkillData;

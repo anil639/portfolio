@@ -5,7 +5,17 @@ import taskList from "./Images/taskList.png";
 import SocialMediaUI from "./Images/SocialMediaUI.png";
 import YoutubeClone from "./Images/YoutubeClone.png";
 import netflixClone from "./Images/netflixClone.png";
+import chatApp from "./Images/wp svg.svg";
 const ProjectData = [
+  {
+    image: chatApp,
+    title: "Chat App | Web App (MERN)",
+    description:
+      "ChatApp: React, Socket.io, Emoji Picker. Secure backend with bcrypt, CORS, Mongoose, Socket.io for efficient real-time messaging.",
+    site_link: "",
+    client_link: "https://github.com/anil639/chatapp_client",
+    server_link: "https://github.com/anil639/chatapp_server",
+  },
   {
     image: netflixClone,
     title: "Netflix Clone | Web App (MERN)",

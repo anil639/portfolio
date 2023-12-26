@@ -23,13 +23,35 @@ const ProjectCards = (props) => {
                   Go To Website
                 </Button>
               ) : null}
-              <Button
-                href={value.github_link}
-                target="_blank"
-                variant="warning"
-              >
-                Github
-              </Button>{" "}
+              {value.client_link ? (
+                <Button
+                  href={value.client_link}
+                  target="_blank"
+                  variant="warning"
+                  style={{ marginRight: "5px" }}
+                >
+                  Client
+                </Button>
+              ) : null}
+              {value.server_link ? (
+                <Button
+                  href={value.server_link}
+                  target="_blank"
+                  variant="warning"
+                  style={{ marginRight: "5px" }}
+                >
+                  server
+                </Button>
+              ) : null}
+              {value.github_link ? (
+                <Button
+                  href={value.github_link}
+                  target="_blank"
+                  variant="warning"
+                >
+                  Github
+                </Button>
+              ) : null}
             </Card.Body>
           </Card>
         </div>
