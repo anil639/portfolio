@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.deae603f.css",
-    "main.js": "/portfolio/static/js/main.654e1b0b.js",
+    "main.js": "/portfolio/static/js/main.56acb42b.js",
     "static/media/netflixClone.png": "/portfolio/static/media/netflixClone.e92b6059c8d940b03046.png",
     "static/media/YoutubeClone.png": "/portfolio/static/media/YoutubeClone.ca8b0a6328bc62477ae8.png",
     "static/media/SocialMediaUI.png": "/portfolio/static/media/SocialMediaUI.5349f8d365d148af10af.png",
     "static/media/getYoutubeSubscribers.png": "/portfolio/static/media/getYoutubeSubscribers.0291cda31f61beea5e41.png",
-    "static/media/Anil kumar Nayak.pdf": "/portfolio/static/media/Anil kumar Nayak.e98c209f9700028db962.pdf",
     "static/media/Resume_builder_img.png": "/portfolio/static/media/Resume_builder_img.332ef295910841285a51.png",
+    "static/media/Anil Kumar Nayak.pdf": "/portfolio/static/media/Anil Kumar Nayak.01e24b4ba0349e3b5b78.pdf",
     "static/media/mongoDb_img.png": "/portfolio/static/media/mongoDb_img.f9efb4cf07a7dc8a900d.png",
     "static/media/taskList.png": "/portfolio/static/media/taskList.0f21a10715abf78029c6.png",
     "static/media/nodeJs_img.png": "/portfolio/static/media/nodeJs_img.a944ef19fe84ba7371f2.png",
     "static/media/wp svg.svg": "/portfolio/static/media/wp svg.6181e5cecd1a682846ba3e623621a869.svg",
     "index.html": "/portfolio/index.html",
     "main.deae603f.css.map": "/portfolio/static/css/main.deae603f.css.map",
-    "main.654e1b0b.js.map": "/portfolio/static/js/main.654e1b0b.js.map"
+    "main.56acb42b.js.map": "/portfolio/static/js/main.56acb42b.js.map"
   },
   "entrypoints": [
     "static/css/main.deae603f.css",
-    "static/js/main.654e1b0b.js"
+    "static/js/main.56acb42b.js"
   ]
 }
