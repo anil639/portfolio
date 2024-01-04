@@ -6,7 +6,17 @@ import SocialMediaUI from "./Images/SocialMediaUI.png";
 import YoutubeClone from "./Images/YoutubeClone.png";
 import netflixClone from "./Images/netflixClone.png";
 import chatApp from "./Images/wp svg.svg";
+import File_Sharing from "./Images/File_Sharing.png";
 const ProjectData = [
+  {
+    image: File_Sharing,
+    title: "File Sharing | Web App (MERN)",
+    description:
+      "FileSharing:MERN app enabling seamless file sharing, fostering collaboration with MongoDB, Express, React, and Node.js technologies",
+    site_link: "",
+    client_link: "https://github.com/anil639/file_sharing_client",
+    server_link: "https://github.com/anil639/file_sharing_server",
+  },
   {
     image: chatApp,
     title: "Chat App | Web App (MERN)",

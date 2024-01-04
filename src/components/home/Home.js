@@ -6,7 +6,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Button from "react-bootstrap/Button";
 import { FaHandPointRight } from "react-icons/fa";
-import pdf from "./Anil kumar Nayak.pdf";
+import pdf from "./Anil Kumar Nayak.pdf";
 
 const Home = () => {
   return (
@@ -21,7 +21,7 @@ const Home = () => {
               technical systems to create impact.
             </h3>
             <SocialMedia />
-            <a href={pdf} id="pdf_link1">
+            <a href={pdf} target="_blank" id="pdf_link1">
               <Button className="cv_btm">Download Resume</Button>
             </a>
           </Col>
