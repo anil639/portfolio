@@ -32,9 +32,9 @@ const Contact = () => {
             <p>Nepur,jagatsinghpur,Odisha</p>
             <h1>Phone</h1>
             <h4>Mobile Number</h4>
-            <p>(+91)8895312122</p>
+            <p>(+91)6370266277</p>
             <h1>Email</h1>
-            <p>anilkumarnayak639@gmail.com</p>
+            <p>anilkumarnayak529@gmail.com</p>
             <div className="contact_social_media_icon">
               <SocialMedia />
             </div>
