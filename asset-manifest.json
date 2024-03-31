@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.4fab0565.css",
-    "main.js": "/portfolio/static/js/main.086e7397.js",
+    "main.js": "/portfolio/static/js/main.d9de9f66.js",
     "static/media/netflixClone.png": "/portfolio/static/media/netflixClone.e92b6059c8d940b03046.png",
     "static/media/YoutubeClone.png": "/portfolio/static/media/YoutubeClone.ca8b0a6328bc62477ae8.png",
     "static/media/SocialMediaUI.png": "/portfolio/static/media/SocialMediaUI.5349f8d365d148af10af.png",
-    "static/media/AnilKumarNayak..pdf": "/portfolio/static/media/AnilKumarNayak..f43566c066f4a0284b98.pdf",
+    "static/media/AnilKumarNayak.pdf": "/portfolio/static/media/AnilKumarNayak.dd76e31f0dcf61dcbb93.pdf",
     "static/media/getYoutubeSubscribers.png": "/portfolio/static/media/getYoutubeSubscribers.0291cda31f61beea5e41.png",
     "static/media/Resume_builder_img.png": "/portfolio/static/media/Resume_builder_img.332ef295910841285a51.png",
     "static/media/mongoDb_img.png": "/portfolio/static/media/mongoDb_img.f9efb4cf07a7dc8a900d.png",
@@ -14,10 +14,10 @@
     "static/media/wp svg.svg": "/portfolio/static/media/wp svg.6181e5cecd1a682846ba3e623621a869.svg",
     "index.html": "/portfolio/index.html",
     "main.4fab0565.css.map": "/portfolio/static/css/main.4fab0565.css.map",
-    "main.086e7397.js.map": "/portfolio/static/js/main.086e7397.js.map"
+    "main.d9de9f66.js.map": "/portfolio/static/js/main.d9de9f66.js.map"
   },
   "entrypoints": [
     "static/css/main.4fab0565.css",
-    "static/js/main.086e7397.js"
+    "static/js/main.d9de9f66.js"
   ]
 }
