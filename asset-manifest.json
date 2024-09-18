@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.4fab0565.css",
-    "main.js": "/portfolio/static/js/main.d3bf2759.js",
+    "main.js": "/portfolio/static/js/main.03614d6d.js",
     "static/media/netflixClone.png": "/portfolio/static/media/netflixClone.e92b6059c8d940b03046.png",
     "static/media/YoutubeClone.png": "/portfolio/static/media/YoutubeClone.ca8b0a6328bc62477ae8.png",
     "static/media/SocialMediaUI.png": "/portfolio/static/media/SocialMediaUI.5349f8d365d148af10af.png",
@@ -11,15 +11,16 @@
     "static/media/Resume_builder_img.png": "/portfolio/static/media/Resume_builder_img.332ef295910841285a51.png",
     "static/media/vehicle_Booking.png": "/portfolio/static/media/vehicle_Booking.c4702c74500f95473fa5.png",
     "static/media/mongoDb_img.png": "/portfolio/static/media/mongoDb_img.f9efb4cf07a7dc8a900d.png",
+    "static/media/burger.avif": "/portfolio/static/media/burger.756fd240deab36d02e33.avif",
     "static/media/taskList.png": "/portfolio/static/media/taskList.0f21a10715abf78029c6.png",
     "static/media/nodeJs_img.png": "/portfolio/static/media/nodeJs_img.a944ef19fe84ba7371f2.png",
     "static/media/wp svg.svg": "/portfolio/static/media/wp svg.6181e5cecd1a682846ba3e623621a869.svg",
     "index.html": "/portfolio/index.html",
     "main.4fab0565.css.map": "/portfolio/static/css/main.4fab0565.css.map",
-    "main.d3bf2759.js.map": "/portfolio/static/js/main.d3bf2759.js.map"
+    "main.03614d6d.js.map": "/portfolio/static/js/main.03614d6d.js.map"
   },
   "entrypoints": [
     "static/css/main.4fab0565.css",
-    "static/js/main.d3bf2759.js"
+    "static/js/main.03614d6d.js"
   ]
 }
