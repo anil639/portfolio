@@ -9,6 +9,7 @@ import chatApp from "./Images/wp svg.svg";
 import File_Sharing from "./Images/File_Sharing.png";
 import Vehicle_Booking from "./Images/vehicle_Booking.png";
 import Insurance_Api from "./Images/Insurance_Api.jpg";
+import Burger from "./Images/burger.avif";
 const ProjectData = [
   {
     image: Insurance_Api,
@@ -34,6 +35,14 @@ const ProjectData = [
     site_link: "",
     client_link: "https://github.com/anil639/file_sharing_client",
     server_link: "https://github.com/anil639/file_sharing_server",
+  },
+  {
+    image: Burger,
+    title: "Burger App",
+    description:
+      "A MERN-based burger app allows users to add custom slices, fetch the next order number, and save order details, including customer info, to the backend.",
+    site_link: "",
+    github_link: "https://github.com/anil639/burger_app_apie_tech",
   },
   {
     image: chatApp,
