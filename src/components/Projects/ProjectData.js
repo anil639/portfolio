@@ -10,6 +10,7 @@ import File_Sharing from "./Images/File_Sharing.png";
 import Vehicle_Booking from "./Images/vehicle_Booking.png";
 import Insurance_Api from "./Images/Insurance_Api.jpg";
 import Burger from "./Images/burger.avif";
+import Property_pulse from "./Images/Property_pulse.png";
 const ProjectData = [
   {
     image: Insurance_Api,
@@ -18,6 +19,15 @@ const ProjectData = [
       "APIs for data upload, search, and aggregation in MongoDB, with real-time CPU monitoring and scheduled messaging to optimize server performance.",
     site_link: "",
     github_link: "https://github.com/anil639/insurance_API",
+  },
+  {
+    image: Property_pulse,
+    title: "Property_pulse",
+    description:
+      "PropertyPulse is a dynamic MERN stack project that enables users to manage property listings, perform CRUD operations, and browse available properties.",
+    site_link: "",
+    client_link: "https://github.com/anil639/propertyPulse_client",
+    server_link: "https://github.com/anil639/propertyPulse_server",
   },
   {
     image: Vehicle_Booking,
