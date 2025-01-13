@@ -1,12 +1,33 @@
 .name {
-  animation: flicker 1.5s infinite alternate !important;
+  animation: neon-wave 4s infinite alternate ease-in-out;
   color: #fff;
-  font-family: ink free;
+  font-family: "Ink Free";
   font-size: 30px !important;
-  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #5271ff,
-    0 0 82px #5271ff, 0 0 92px #5271ff, 0 0 102px #5271ff, 0 0 151px #5271ff;
+  text-shadow: 0 0 5px #5271ff, 0 0 10px #00ffff, 0 0 15px #ff69b4;
 }
 
+@keyframes neon-wave {
+  0% {
+    text-shadow: 0 0 5px #5271ff, 0 0 10px #00ffff, 0 0 15px #ff69b4;
+    color: #ffffff;
+  }
+  25% {
+    text-shadow: 0 0 5px #00ffff, 0 0 10px #ff69b4, 0 0 15px #5271ff;
+    color: #00ffff;
+  }
+  50% {
+    text-shadow: 0 0 5px #ff69b4, 0 0 10px #5271ff, 0 0 15px #00ffff;
+    color: #ff69b4;
+  }
+  75% {
+    text-shadow: 0 0 5px #8a2be2, 0 0 10px #ff69b4, 0 0 15px #00ffff;
+    color: #8a2be2;
+  }
+  100% {
+    text-shadow: 0 0 5px #5271ff, 0 0 10px #00ffff, 0 0 15px #ff69b4;
+    color: #ffffff;
+  }
+}
 .navbar-nav > li > a {
   margin-left: 12px;
   margin-right: 12px;
